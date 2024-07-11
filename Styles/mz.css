@@ -11,6 +11,13 @@
     margin:20px 50px;
     padding:10px 20px;
     position: relative;
+    width:90%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 #header{
     font-size:50px;
@@ -20,7 +27,8 @@
     font-weight:bolder;
     font-style:italic;
     text-decoration: underline;
-    position: relative;
+ 
+ 
 }
 p{
     color:rgba(250, 242, 215, 0.747);
@@ -28,14 +36,16 @@ p{
     font-size:20px;
     font-style:oblique;
     font-family:Arial, Helvetica, sans-serif;
-    position: relative;
+  
 }
 .image{
     width:300px;
     height:200px;
     padding-left:450px;
     padding-right:450px;
-    position:relative;
+  
+  
+    
 }
 
 .sign-in{
@@ -45,7 +55,13 @@ p{
     padding:20px 10px;
     border:8px yellow solid;
    border-radius:40px;
-   position: relative;
+   width:90%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #form{
@@ -54,7 +70,6 @@ p{
     font-size: 40px;
     font-style:italic;
     text-decoration:underline;
-    position: relative;
 }
 
 input{
@@ -65,7 +80,7 @@ input{
     cursor:pointer;
     transition:all 2s;
     box-shadow:20px 10px 5px black;
-    position: relative;
+   
 }
 
 input:hover{
@@ -76,16 +91,18 @@ input:hover{
 .qualification{
     width:600px;
     height:500px;
-    margin-left:400px;
+    /* margin-left:400px;
     margin-right:400px;
-    margin-bottom:100px;
+    margin-bottom:100px; */
     background-image: url(https://as2.ftcdn.net/v2/jpg/07/65/22/29/1000_F_765222904_VWItCN4ADXVMEnrPD7Dvxu5TpvfSUsVs.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
     border:12px tomato solid;
     border-radius:50px;
-    position:relative;
+  margin:0 auto;
+
+  
 }
 
 #academic{
@@ -97,7 +114,7 @@ input:hover{
 font-weight:bold;
 font-style:oblique;
 font-family:Arial, Helvetica, sans-serif;
-position: relative;
+
 
 }
 
@@ -115,7 +132,7 @@ ul{
     margin-right:60px;
     margin-top:40px;
     box-shadow:25px 20px 15px black;
-    position: relative;
+   
 }
 
 .you-tube{
@@ -127,11 +144,13 @@ ul{
     border-radius:40px;
     width:800px;
     height:500px;
-    margin-left:300px;
+    /* margin-left:300px;
     margin-right:300px;
-    margin-bottom:200px;
+    margin-bottom:200px; */
     padding:40px 30px;
-    position: relative;
+    margin:0 auto;
+   
+   
 
 }
 #link{
@@ -141,7 +160,7 @@ ul{
     font-style:oblique;
     font-size:50px;
     font-weight:lighter;
-    position: relative;
+  
 }
 #btn{
     color:cornsilk;
